@@ -1,0 +1,10 @@
+pip install streamlit
+pip install plotly
+pip install xlsxwriter
+streamlit
+plotly.express
+pandas
+numpy
+datetime
+openpyxl
+tk
