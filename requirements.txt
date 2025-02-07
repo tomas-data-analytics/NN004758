@@ -5,3 +5,4 @@ numpy
 datetime
 openpyxl
 tk
+xlswriter
