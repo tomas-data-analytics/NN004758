@@ -256,9 +256,11 @@ def run_ETL(EDC_raw, VBT_df, transfer_subjects, delete_visits, include_visits, e
     clean_file.loc[clean_file['Subject'] == 194016, 'Status'] = 'Screen Fail'
     clean_file.loc[clean_file['Subject'] == 200016, 'Status'] = 'Randomized'
     clean_file.loc[clean_file['Subject'] == 231007, 'Status'] = 'Screen Fail'
+    clean_file.loc[clean_file['Subject'] == 187003, 'Status'] = 'Screen Fail'
     clean_file.loc[clean_file['Subject'] == 231011, 'Status'] = 'Screen Fail'
     clean_file.loc[clean_file['Subject'] == 254002, 'Status'] = 'Discontinued'
     clean_file.loc[clean_file['Subject'] == 115012, 'Status'] = 'Screen Fail'
+    clean_file.loc[clean_file['Subject'] == 300015, 'Status'] = 'Screen Fail'
     clean_file.loc[clean_file['Subject'] == 112032, 'Status'] = 'Screen Fail'
 
     #include this visits with 'Withdarwn' Status  but payable Retention Year visits:
